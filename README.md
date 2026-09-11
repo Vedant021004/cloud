@@ -1,162 +1,403 @@
+
 <div align="center">
 
-# 🤖 J.A.R.V.I.S.
-### A Local-First AI Desktop Assistant for Windows
+# Hey, I'm Vedant 
 
-<img width="800" height="450" alt="JARVIS Banner" src="https://github.com/user-attachments/assets/04ba818a-bb38-4854-9b55-309c4270c2da" />
+### AI / ML Engineer · Generative AI · Agentic Systems
 
-<br/><br/>
+<img width="800" height="450" alt="Vedant's AI Workspace" src="https://github.com/user-attachments/assets/04ba818a-bb38-4854-9b55-309c4270c2da" />
 
-![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-Agent%20Orchestration-1C3C3C?style=for-the-badge)
-![ChromaDB](https://img.shields.io/badge/ChromaDB-Vector%20Memory-FF6F00?style=for-the-badge)
-![RAG](https://img.shields.io/badge/RAG-Retrieval%20Augmented-4B8BBE?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Active%20Development-brightgreen?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
+<br>
 
-**Your own Jarvis. Running locally. Answering to no cloud but yours.**
+> **Building intelligent things and occasionally breaking them.**
+
+<br>
 
 </div>
 
 ---
 
-## 🧭 Overview
+## 🧠 Who Am I?
 
-**JARVIS** is a **local-first AI desktop assistant** built for Windows — designed to feel less like a chatbot bolted onto your desktop and more like a genuine second brain sitting quietly in the background. It combines **retrieval-augmented generation (RAG)**, **persistent vector memory**, and a **graph-based agent orchestration layer** to hold context, retrieve knowledge, and act on your behalf — all without shipping your data off to someone else's server by default.
+I'm **Vedant**, an AI/ML developer focused on building systems that go beyond simply
+calling an LLM and printing its response.
 
-This isn't a wrapper around an API call. It's an evolving system: what started as a single conversational agent is being rebuilt into a **multi-agent architecture**, with specialized agents handling distinct responsibilities (reasoning, retrieval, tool execution, memory management) and coordinating through **LangGraph**.
+I'm currently diving deep into:
+
+- 🤖 **Generative AI & LLM Applications**
+- 🧩 **LangChain & LangGraph**
+- 🔀 **Multi-Agent Systems**
+- 🧠 **RAG & Long-Term Memory**
+- 🗣️ **NLP & Fine-Tuning**
+- ⚙️ **AI Automation & Tool Calling**
+- 🚀 Turning ideas into actual working projects
+
+My approach is simple:
+
+> **Understand the problem → design the system → build it → break it → understand why → build it better.**
+
+And yes...
+
+> *Sometimes the last step is just `works on my machine™`.*
 
 ---
 
-## ✨ Core Features
+## 🔭 What I'm Building Right Now
 
-| | |
-|---|---|
-| 🧠 **Persistent Memory** | ChromaDB-backed vector store gives JARVIS long-term recall across sessions — it remembers, it doesn't just respond. |
-| 🔍 **RAG Pipeline** | Retrieval-augmented generation grounds answers in your own documents and context instead of hallucinated guesses. |
-| 🕸️ **Agentic Orchestration** | LangGraph drives multi-step reasoning and tool use as a graph of decisions, not a single linear prompt. |
-| 🖥️ **Local-First Design** | Built to run on-device where possible — your data stays on your machine. |
-| 🎨 **Themeable Interface** | Multiple UI moods, from clean daylight views to a full dark "Midnight" aesthetic. |
-| ⚠️ **System Awareness** | Built-in alerting and status indicators for critical or anomalous events. |
+I'm exploring the transition from **traditional ML applications → LLM applications → agentic systems**.
+
+Instead of building AI that only responds to a prompt, I'm interested in systems that can:
+
+```text
+Understand the request
+        ↓
+Analyze the problem
+        ↓
+Decide what needs to happen
+        ↓
+Route the task
+        ↓
+Retrieve relevant information
+        ↓
+Use tools when required
+        ↓
+Reason over the results
+        ↓
+Generate a useful response
+        ↓
+Remember what actually matters
+````
+
+The bigger goal is to understand how individual AI components can be connected
+to create systems that are **stateful, useful, controllable and actually capable
+of handling more than a single prompt-response cycle.**
+
+That's where **LangGraph, RAG, memory, routing, tool calling and multi-agent architectures**
+become especially interesting.
+
+I'm currently experimenting with these ideas through projects rather than
+just learning them theoretically.
 
 ---
 
-## 📸 Gallery
+# 📸 A Little Look Into My Work
+
+The interfaces below aren't just UI experiments.
+
+They represent the kind of systems I'm interested in building:
+
+**AI + Engineering + Interaction + A little bit of chaos.**
 
 <div align="center">
 
-### 🌓 Midnight Owl — Dark Mode Interface
-<img width="800" src="https://github.com/user-attachments/assets/a7605427-fa69-416f-85ec-955ea51490c1" alt="MidnightOwl Dark Theme" />
+### 🌓 Midnight Owl — When Dark Mode Becomes a Personality
 
-<br/><br/>
+<img width="800" src="https://github.com/user-attachments/assets/a7605427-fa69-416f-85ec-955ea51490c1" alt="Midnight Owl Dark Theme" />
 
-### ⌨️ Typing Master — Command & Input Module
-<img width="800" src="https://github.com/user-attachments/assets/f3563df6-be53-4aba-ba97-0066c985e09e" alt="TypingMaster Module" />
+</div>
 
-<br/><br/>
+A darker interface for the late-night engineering sessions where one bug somehow turns into a three-hour debugging adventure.
 
-### ⚠️ Danger Zone — Alert & Anomaly System
-<img width="800" src="https://github.com/user-attachments/assets/8af87fe1-ec83-468a-a2ba-d133747e841c" alt="DANGER Alert System" />
+I'm also interested in how the **visual layer of an AI application** can make
+complex systems feel easier and more intuitive to use.
 
-<br/><br/>
+Because let's be honest:
+
+> **Some of the best debugging happens after midnight. 🌙**
+
+---
+
+<div align="center">
+
+### ⌨️ Typing Master — Where Humans Meet the System
+
+<img width="800" src="https://github.com/user-attachments/assets/f3563df6-be53-4aba-ba97-0066c985e09e" alt="Typing Master Interface" />
+
+</div>
+
+Exploring better ways for humans to interact with AI systems through **commands, inputs and responsive interfaces**.
+
+Because a powerful AI system is only useful if interacting with it doesn't feel painful.
+
+The interface should make it clear **what the user can ask, what the system understands,
+and what happens after an action is triggered.**
+
+---
+
+<div align="center">
+
+### ⚠️ Danger Zone — Things Get Interesting Here
+
+<img width="800" src="https://github.com/user-attachments/assets/8af87fe1-ec83-468a-a2ba-d133747e841c" alt="Danger Zone Alert System" />
+
+</div>
+
+Not everything should silently happen in the background.
+
+I'm interested in systems that can **surface important events, anomalies and decisions** instead of hiding everything behind a terminal.
+
+For intelligent systems, observability matters.
+
+It's useful to know:
+
+* what happened
+* why it happened
+* what the system decided
+* what failed
+* and what should happen next
+
+> **If the system makes a decision, I want to be able to understand it.**
+
+---
+
+<div align="center">
 
 <table>
 <tr>
+
 <td width="50%">
 
-**Dashboard View**
-<img src="https://github.com/user-attachments/assets/a7541284-fde4-4acb-9ac2-f95ba078cd60" alt="Dashboard View" width="100%"/>
+### 📊 Dashboard View
+
+<img src="https://github.com/user-attachments/assets/a7541284-fde4-4acb-9ac2-f95ba078cd60" alt="AI Dashboard" width="100%"/>
 
 </td>
+
 <td width="50%">
 
-**Session View**
-<img src="https://github.com/user-attachments/assets/03557315-3a10-4bfd-887a-e4f982e0e61d" alt="Session View" width="100%"/>
+### 🧭 Session View
+
+<img src="https://github.com/user-attachments/assets/03557315-3a10-4bfd-887a-e4f982e0e61d" alt="AI Session Interface" width="100%"/>
 
 </td>
+
 </tr>
 </table>
 
-### 🧩 Extended Interface View
-<img width="800" src="https://github.com/user-attachments/assets/f9ee9640-2428-4a16-bea3-320018b8ee93" alt="Extended Interface" />
-
 </div>
 
----
+These views represent another part of what I'm learning:
 
-## 🏗️ Architecture
+**AI systems shouldn't just be intelligent under the hood — they should also be understandable from the outside.**
 
-```
-┌──────────────────────────────────────────────────────────┐
-│                      User Interface                       │
-└───────────────────────────┬────────────────────────────────┘
-                             │
-┌───────────────────────────▼────────────────────────────────┐
-│                  LangGraph Orchestrator                   │
-│   (routes intent → agent, manages graph-based reasoning)  │
-└──────┬─────────────┬─────────────┬────────────┬────────────┘
-       │             │             │            │
- ┌─────▼────┐  ┌─────▼─────┐ ┌─────▼─────┐ ┌────▼─────┐
- │ Reasoning │  │ Retrieval  │ │   Tool    │ │  Memory   │
- │   Agent   │  │   Agent    │ │  Agent    │ │  Agent    │
- │           │  │  (RAG)     │ │ (actions) │ │ (Chroma)  │
- └───────────┘  └────────────┘ └───────────┘ └───────────┘
-```
+Good interfaces make it easier to see:
 
-Each agent owns a narrow responsibility; the orchestrator decides who acts, when, and with what context — the shift from a single monolithic prompt to a coordinated system of specialists.
+* what the system is doing
+* what it knows
+* what it decided
+* what happened during a session
+* and where something went wrong
+
+I'm particularly interested in connecting the **backend reasoning layer with
+the interface layer**, so that the user isn't completely blind to what the
+system is doing.
 
 ---
 
-## 🛠️ Tech Stack
+# 🧩 What I'm Learning
 
-- **Core:** Python
-- **Agent Orchestration:** LangChain, LangGraph
-- **Memory / Retrieval:** ChromaDB, RAG pipelines
-- **Serving:** FastAPI
-- **ML / Deep Learning:** PyTorch
-- **Local Inference:** Ollama, GGUF quantization
-- **Persistence:** SQLite
-- **Containerization:** Docker
-- **Cloud (in progress):** AWS
+### 🔗 LangChain
+
+Building applications around LLMs using:
+
+* Prompting
+* Chains
+* Structured outputs
+* Tool calling
+* Retrievers
+* Agents
+* Memory
+
+I'm using LangChain to understand the building blocks behind modern
+LLM applications and how these components can be combined into larger systems.
+
+The goal isn't just to know the syntax.
+
+It's to understand:
+
+> **Why do we need this component, what problem does it solve, and when should we use it?**
+
+### 🕸️ LangGraph
+
+Going deeper into **stateful and controllable agent architectures**.
+
+
+I'm particularly interested in:
+
+* State management
+* Graph-based workflows
+* Conditional routing
+* Agent coordination
+* Human-in-the-loop systems
+* Memory
+* Tool execution
+* Multi-agent architectures
+
+The goal isn't to add agents just because they're cool.
+
+> **The architecture should solve the problem.**
 
 ---
 
-## 🚧 Roadmap — What's Being Built Right Now
+# 🧠 NLP & Fine-Tuning
 
-- [ ] **Multi-Agent System** — decomposing the single-agent core into specialized, cooperating agents (reasoning, retrieval, tool execution, memory) coordinated via LangGraph
-- [ ] **NLP Fine-Tuning** — fine-tuning models for sharper domain-specific understanding and more reliable intent parsing
-- [ ] **IDE Integration** — bringing JARVIS into the development workflow directly, as an assistant embedded in the coding environment
-- [ ] Expanded local-inference support and quantized model options
-- [ ] Deeper long-term memory consolidation strategies
+I'm also exploring the lower-level side of language models.
 
----
+Currently learning about:
 
-## ⚙️ Getting Started
+* Tokenization
+* Embeddings
+* Transformers
+* Attention
+* Text classification
+* Named Entity Recognition
+* Fine-tuning
+* Evaluation
+* Model behaviour
 
-```bash
-# Clone the repository
-git clone https://github.com/Vedant021004/jarvis.git
-cd jarvis
+I'm especially interested in understanding **what happens inside the model**, rather than treating an LLM like a magical API.
 
-# Set up environment
-python -m venv venv
-venv\Scripts\activate      # Windows
 
-# Install dependencies
-pip install -r requirements.txt
 
-# Run JARVIS
-python main.py
-```
+Understanding these fundamentals helps me make better decisions when moving
+from simply **using models** to actually working with and adapting them.
 
 ---
 
-## 📄 License
+# 🔎 RAG & AI Memory
 
-Released under the **MIT License** — see [LICENSE](LICENSE) for details.
+One of the areas I find particularly interesting is giving AI systems access to information beyond their original context.
+
+That means working with:
+
+**Documents → Chunking → Embeddings → Vector Store → Retrieval → Generation**
+
+
+and eventually:
+
+**Short-term memory + Long-term memory + Retrieval + Reasoning**
+
+I'm interested in the difference between simply retrieving information
+and building a system that can decide **which information is actually useful.**
+
+The interesting question isn't just:
+
+> "Can the AI answer?"
+
+It's:
+
+> **"Can the system find the right information, remember what matters and use it at the right time?"**
+
+---
+
+# 🏗️ How I'm Thinking About AI Systems
+
+The more I learn, the more I realize that an AI application isn't just:
+
+**User → Prompt → LLM → Answer**
+
+
+
+This is the direction I'm currently interested in:
+
+> **Building systems around models, not just calling models.**
+
+---
+
+# 🚀 Things I Want To Build
+
+I'm not trying to build another collection of tutorial projects.
+
+I'm interested in projects where the **architecture itself is the interesting part**.
+
+### 🤖 Agentic Systems
+
+Systems that can reason, route tasks, use tools and coordinate multiple agents.
+
+### 🧠 Personal AI
+
+AI systems with meaningful memory, context and personalization.
+
+### 🔎 Intelligent RAG
+
+Retrieval systems that understand **what information matters**, not just what text is similar.
+
+### 🗣️ NLP Systems
+
+Classification, NER, fine-tuning and domain-specific language applications.
+
+### ⚙️ AI Automation
+
+Systems that can turn repetitive workflows into intelligent pipelines.
+
+---
+
+Still learning.
+
+Still experimenting.
+
+Still breaking things.
+
+But the direction is clear.
+
+I'm trying to move from:
+
+> **"I know how to use this library."**
+
+towards:
+
+> **"I understand why this architecture works."**
+
+And eventually:
+
+> **"I can design the architecture myself."**
+
+---
+
+# 🌱 Beyond Code
 
 <div align="center">
 
-*Built by [Ved](https://github.com/Vedant021004) — because a good assistant shouldn't need the cloud to know you.*
+<img src="https://raw.githubusercontent.com/TanZng/TanZng/master/assets/hollor_knight3.gif" width="300">
 
 </div>
+
+Coding is a big part of what I do.
+
+But not the only part.
+
+I like exploring new places, collecting experiences, experimenting with ideas and occasionally disappearing into a completely unrelated rabbit hole for several hours.
+
+Because sometimes the best ideas don't come from another tutorial.
+
+They come from **doing something different.**
+
+---
+
+# 🐍 Contribution Graph
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/Vedant021004/Vedant021004/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Snake" />
+
+</div>
+
+---
+
+# 📊 GitHub Stats
+
+<div align="center">
+
+
+<img src="https://streak-stats.demolab.com/?user=Vedant021004&theme=tokyonight&hide_border=true&background=0D1117&ring=00D9FF&fire=FF6B6B&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=00D9FF&sideLabels=8B949E&dates=8B949E" width="70%"/>
+
+</div>
+
+
+<div align="center">
+
+### **Build → Break → Learn → Repeat.**
+
+
+
+### ⚡ Thanks for stopping by.
